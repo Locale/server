@@ -21,6 +21,7 @@ A content server for handling localization
 - [ ] Dissociate storage from the API interface.
 - [ ] Packageable, run anywhere, on any infrastructure.
 - [ ] Automatic hashing of keys and content.
+- [ ] Capable of handling markup within content (eg. HTML).
 
 # Schema
 
