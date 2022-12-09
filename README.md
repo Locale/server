@@ -2,9 +2,11 @@
 
 # Principles
 
-- Standards based (BCP47, CLDR, etc...)
+- Standards based (BCP47, CLDR, etc...).
 - Fully versioned audit trail.
 - Small tool that does only one thing, but very well.
+- File format AND API are the same thing.
+- Flexible querying for advanced or unknown use cases.
 
 # Objectives
 
@@ -13,30 +15,11 @@
 - [ ] Support pluralization of strings.
 - [ ] Define usage patterns for common translation workflows.
 - [ ] Dissociate storage from the API interface.
+- [ ] Packageable, run anywhere, on any infrastructure.
 
 # Schema
 
 ```graphql
-
-type Language {
-  id: ID!
-}
-
-type Organization {
-  id: ID
-  name: String
-  projects: [Project]
-}
-
-type Project {
-  sourceLanguage: Language!
-  targetLanguages: [Languages]!
-  documents: [Document]
-}
-
-type Document {
-  segments: [Segment]
-}
 
 type Segment {
   key: String!
