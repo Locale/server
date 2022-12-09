@@ -3,6 +3,7 @@
 # Principles
 
 - Standards based (BCP47, CLDR, etc...).
+- Opinionated, works in 80% of cases.
 - Fully versioned audit trail.
 - Small tool that does only one thing, but very well.
 - File format AND API are the same thing.
