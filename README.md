@@ -1,5 +1,8 @@
 # server
 
+A content server for handling localization
+
+
 # Principles
 
 - Standards based (BCP47, CLDR, etc...).
