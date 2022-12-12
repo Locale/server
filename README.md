@@ -25,6 +25,21 @@ A content server for handling localization
 - [ ] Handle placeholders/variables.
 - [ ] Handle data types.
 
+# Roadmap
+
+## 0.0.1
+
+- [ ] Basic structure, including Groups, Segments, Units.
+- [ ] Ability to fetch data via GraphQL.
+
+## 0.0.2
+
+- [ ] Create items mutation.
+
+## 0.0.3
+
+- [ ] Pluralization.
+
 # Schema
 
 ```graphql
