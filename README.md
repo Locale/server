@@ -44,7 +44,7 @@ A content server for handling localization
 
 ```graphql
 
-version: 0.01
+version: 0.0.1
 
 type Unit {
   id: String! # auto
@@ -52,8 +52,10 @@ type Unit {
   locale: String # future, extract to Class
   resource: String # optional, extract to Class
   text: String # raw text
-  segments: [Segment] # auto
+  # segments: [Segment] # auto
 }
+
+# 0.0.2
 
 type Segment {
   type: String # text|numeric|html|plural|untranslatable
