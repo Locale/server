@@ -44,13 +44,20 @@ A content server for handling localization
 
 ```graphql
 
-type Segment {
-  key: String!
-  units: [Unit]
-}
+version: 0.01
 
 type Unit {
-  language: Language
+  id: String! # auto
+  key: String!
+  locale: String # future, extract to Class
+  resource: String # optional, extract to Class
+  text: String # raw text
+  segments: [Segment] # auto
+}
+
+type Segment {
+  type: String # text|numeric|html|plural|untranslatable
+  value: String
 }
 
 ```
