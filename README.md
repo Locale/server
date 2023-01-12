@@ -54,3 +54,19 @@ type Unit {
 }
 
 ```
+
+### Quick XLIFF refresher
+
+```
+- File
+  # the container for localization material extracted from the document
+  
+  |-- Group (optional)
+  # a way to organize units into a structured hierarchy
+  
+      |-- Unit
+      # a container for the elements that hold source and translation texts
+      
+          |-- Segment
+          # a container that holds elements with source and translation texts
+```
