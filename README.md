@@ -1,4 +1,4 @@
-# server
+# Blueberry :blueberries:
 
 A content server for handling localization
 
